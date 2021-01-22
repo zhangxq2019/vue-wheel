@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/zhangxq2019/vue-wheel/issues"
   },
-  "homepage": "https://github.com/zhangxq2019/vue-wheel#readme"
+  "homepage": "https://github.com/zhangxq2019/vue-wheel#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
 }
