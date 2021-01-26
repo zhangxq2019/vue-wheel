@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
+    <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="加入parcel,将button组件改为单文件组件">
+      <change afterPath="$PROJECT_DIR$/button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +22,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/.idea/workspace.xml" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1nPZ8rmZrqxqNUVIevFLaTIxRfQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,7 +34,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -34,18 +50,42 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611293530335</updated>
-      <workItem from="1611293531622" duration="336000" />
+      <workItem from="1611293531622" duration="5766000" />
+      <workItem from="1611304372275" duration="957000" />
+      <workItem from="1611305412166" duration="9574000" />
     </task>
+    <task id="LOCAL-00001" summary="npm install vue">
+      <created>1611294068972</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611294068972</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="npm install vue" />
+    <MESSAGE value="完成按钮基本样式" />
+    <MESSAGE value="加入parcel,将button组件改为单文件组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入parcel,将button组件改为单文件组件" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="540" y="74" key="SettingsEditor" timestamp="1611293803845">
+    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1611655472542">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="540" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1611293803845" />
+    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1611655472542" />
+    <state x="540" y="74" key="SettingsEditor" timestamp="1611294724753">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="540" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1611294724753" />
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1611294103285">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1611294103285" />
     <state x="770" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1611293619513">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
