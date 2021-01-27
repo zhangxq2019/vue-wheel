@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,7 @@
       <updated>1611293530335</updated>
       <workItem from="1611293531622" duration="5766000" />
       <workItem from="1611304372275" duration="957000" />
-      <workItem from="1611305412166" duration="10145000" />
+      <workItem from="1611305412166" duration="18508000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
@@ -62,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611655531373</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary=".ignore .cache &amp; dist">
+      <created>1611656153403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611656153403</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,24 +80,25 @@
     <MESSAGE value="npm install vue" />
     <MESSAGE value="完成按钮基本样式" />
     <MESSAGE value="加入parcel,将button组件改为单文件组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入parcel,将button组件改为单文件组件" />
+    <MESSAGE value=".ignore .cache &amp; dist" />
+    <option name="LAST_COMMIT_MESSAGE" value=".ignore .cache &amp; dist" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1611655528707">
+    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1611656152633">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1611655528707" />
+    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1611656152633" />
     <state x="540" y="74" key="SettingsEditor" timestamp="1611294724753">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="540" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1611294724753" />
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1611655560214">
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1611737032496">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1611655560214" />
-    <state x="770" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1611293619513">
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1611737032496" />
+    <state x="770" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1611737082098">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="770" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1611293619513" />
+    <state x="770" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1611737082098" />
   </component>
 </project>

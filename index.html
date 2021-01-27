@@ -7,17 +7,20 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>wheel</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
+
         #app {
             margin: 20px;
         }
+
         body {
             font-size: var(--font-size);
         }
+
         :root {
             --button-height: 32px;
             --font-size: 14px;
@@ -28,6 +31,7 @@
             --border-color: #999;
             --border-color-hover: #666;
         }
+
         /*.g-button {*/
         /*    padding: 0 1em;*/
         /*    font-size: var(--font-size);*/
@@ -46,12 +50,22 @@
         /*.g-button:focus {*/
         /*    outline: none;*/
         /*}*/
+        /*.icon {*/
+        /*    width: 1em;*/
+        /*    height: 1em;*/
+        /*}*/
     </style>
 </head>
 <body>
 <div id="app">
-    <g-button></g-button>
+    <g-button icon="setting" icon-position="left">
+        按钮
+    </g-button>
+    <g-button icon="setting" icon-position="right">
+        按钮
+    </g-button>
 </div>
 <script src="./src/app.js"></script>
+<script src="//at.alicdn.com/t/font_2351280_8dqp3uh1zvh.js"></script>
 </body>
 </html>
