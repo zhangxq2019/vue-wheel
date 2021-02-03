@@ -24,7 +24,17 @@
 </template>
 <script>
 export default {
-  props: ['icon','iconPosition']
+  // props: ['icon','iconPosition']
+  props: {
+    icon: {},
+    iconPosition: {
+      type: String,
+      default: 'left',
+      validator: function (value) {
+        return value === 'left' && value === 'right'
+      }
+    }
+  }
 }
 </script>
 <style lang="scss">
@@ -51,8 +61,10 @@ export default {
     outline: none;
   }
   > .icon {
+    width: 1em;
+    height: 1em;
     order: 1;
-    margin-right: .3em;
+    margin-right: .1em;
   }
   > .content {
     order: 2;
@@ -61,7 +73,7 @@ export default {
      > .icon {
        order: 2;
        margin-right: 0;
-       margin-left: .3em;
+       margin-left: .1em;
      }
     > .content {
       order: 1;

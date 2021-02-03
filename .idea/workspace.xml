@@ -47,7 +47,7 @@
       <updated>1611293530335</updated>
       <workItem from="1611293531622" duration="5766000" />
       <workItem from="1611304372275" duration="957000" />
-      <workItem from="1611305412166" duration="18508000" />
+      <workItem from="1611305412166" duration="20311000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
@@ -70,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611656153403</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="填写 icon 和 iconPositon 属性">
+      <created>1611737377450</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611737377450</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -81,21 +88,22 @@
     <MESSAGE value="完成按钮基本样式" />
     <MESSAGE value="加入parcel,将button组件改为单文件组件" />
     <MESSAGE value=".ignore .cache &amp; dist" />
-    <option name="LAST_COMMIT_MESSAGE" value=".ignore .cache &amp; dist" />
+    <MESSAGE value="填写 icon 和 iconPositon 属性" />
+    <option name="LAST_COMMIT_MESSAGE" value="填写 icon 和 iconPositon 属性" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1611656152633">
+    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1611737376334">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1611656152633" />
+    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1611737376334" />
     <state x="540" y="74" key="SettingsEditor" timestamp="1611294724753">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="540" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1611294724753" />
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1611737032496">
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1611737392626">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1611737032496" />
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1611737392626" />
     <state x="770" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1611737082098">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
