@@ -1,21 +1,7 @@
 <template>
   <div>
-<!--    <button class="g-button" v-if="iconPosition === 'right'">-->
-<!--      <svg v-if="icon" class="icon">-->
-<!--        <use :xlink:href="`#i-${icon}`"></use>-->
-<!--      </svg>-->
-<!--      <slot></slot>-->
-<!--    </button>-->
-<!--    <button class="g-button" v-else>-->
-<!--      <slot></slot>-->
-<!--      <svg v-if="icon" class="icon">-->
-<!--        <use :xlink:href="`#i-${icon}`"></use>-->
-<!--      </svg>-->
-<!--    </button>-->
     <button class="g-button" :class="{[`icon-${iconPosition}`]:true}">
-      <svg v-if="icon" class="icon">
-        <use :xlink:href=`#i-${icon}`></use>
-      </svg>
+      <g-icon v-if="icon" :name="icon"></g-icon>
      <span class="content">
         <slot></slot>
      </span>
@@ -30,8 +16,8 @@ export default {
     iconPosition: {
       type: String,
       default: 'left',
-      validator: function (value) {
-        return value === 'left' && value === 'right'
+      validator(value) {
+        return value === 'left' || value === 'right'
       }
     }
   }
