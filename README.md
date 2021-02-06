@@ -16,5 +16,10 @@ File -> Invlidte Cches
 top-level selectors may not contain the parent selector "&".
 ```
 解决方法：&必须嵌套在scss规则内
+### iconfont链接报错
+```coffeescriptliterate
+Warning:(73, 14) There is no locally stored library for the HTTP link.
+```
+解决方法：快速修复（Alt + Enter）
 ## 关键字
 单文件组件
