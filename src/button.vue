@@ -1,5 +1,4 @@
 <template>
-  <div>
     <button class="g-button" :class="{[`icon-${iconPosition}`]:true}" @click="$emit('click')">
       <g-icon class="icon" v-if="icon && !loading" :name="icon"></g-icon>
       <g-icon class="loading icon" v-if="loading" name="loading"></g-icon>
@@ -7,7 +6,6 @@
         <slot></slot>
      </span>
     </button>
-  </div>
 </template>
 <script>
 export default {
@@ -28,7 +26,7 @@ export default {
   }
 }
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -48,17 +46,10 @@ export default {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  &:hover {
-    border-color: var(--border-color-hover);
-  }
-
-  &:active {
-    background-color: var(--button-active-bg);
-  }
-
-  &:focus {
-    outline: none;
-  }
+  vertical-align: middle;
+  &:hover {border-color: var(--border-color-hover);}
+  &:active {background-color: var(--button-active-bg);}
+  &:focus {outline: none;}
   > .icon {
     width: 1em;
     height: 1em;
@@ -69,11 +60,11 @@ export default {
     order: 2;
   }
   &.icon-right {
-     > .icon {
+    > .icon {
        order: 2;
        margin-right: 0;
        margin-left: .1em;
-     }
+    }
     > .content {
       order: 1;
     }
