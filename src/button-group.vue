@@ -1,9 +1,23 @@
 <template>
+  <div>
 <div class="g-button-group">
   <slot></slot>
 </div>
+  </div>
 </template>
 <script>
+export default {
+  mounted() {
+    console.log(this.$el.children)
+    for(let node of this.$el.children){
+      let name = node.nodeName.toLowerCase()
+      console.log(name)
+      if(name !== 'button'){
+        console.warn(`g-button-group的子元素应该全是g-button，但是你写的是${name}`)
+      }
+    }
+  }
+}
 </script>
 <style lang="scss" scoped>
 .g-button-group{
