@@ -1,9 +1,7 @@
 <template>
-  <div>
 <div class="g-button-group">
   <slot></slot>
 </div>
-  </div>
 </template>
 <script>
 export default {

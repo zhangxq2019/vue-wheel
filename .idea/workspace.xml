@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
+    <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="使用chai.expect 添加四个测试用例">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +51,7 @@
       <workItem from="1612596151128" duration="2840000" />
       <workItem from="1612601785923" duration="4624000" />
       <workItem from="1613286860968" duration="4553000" />
-      <workItem from="1613629072425" duration="4271000" />
+      <workItem from="1613629072425" duration="9158000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
@@ -121,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613717134840</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="第一个元素不需要margin-left">
+      <created>1613717336529</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1613717336529</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,13 +151,14 @@
     <MESSAGE value="添加click事件" />
     <MESSAGE value="完成button-group的创建" />
     <MESSAGE value="检测子元素是不是button" />
-    <option name="LAST_COMMIT_MESSAGE" value="检测子元素是不是button" />
+    <MESSAGE value="第一个元素不需要margin-left" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一个元素不需要margin-left" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1613717133406">
+    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1613811256497">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1613717133406" />
+    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1613811256497" />
     <state x="981" y="185" key="FileChooserDialogImpl" timestamp="1613631178465">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -157,10 +167,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="540" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1611294724753" />
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613717140352">
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1613717339410">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613717140352" />
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613717339410" />
     <state x="770" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1612605833675">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
