@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button-group.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button-group.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +53,8 @@
       <workItem from="1612596151128" duration="2840000" />
       <workItem from="1612601785923" duration="4624000" />
       <workItem from="1613286860968" duration="4553000" />
-      <workItem from="1613629072425" duration="9871000" />
+      <workItem from="1613629072425" duration="15822000" />
+      <workItem from="1613911115381" duration="3618000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
@@ -136,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613811419353</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="使用chai.spy监听回调函数">
+      <created>1613812025778</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1613812025778</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,13 +170,14 @@
     <MESSAGE value="检测子元素是不是button" />
     <MESSAGE value="第一个元素不需要margin-left" />
     <MESSAGE value="使用chai.expect 添加四个测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用chai.expect 添加四个测试用例" />
+    <MESSAGE value="使用chai.spy监听回调函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用chai.spy监听回调函数" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1613811416758">
+    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1613812024671">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1613811416758" />
+    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1613812024671" />
     <state x="981" y="185" key="FileChooserDialogImpl" timestamp="1613631178465">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -178,9 +190,9 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1613811421571" />
-    <state x="770" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1612605833675">
+    <state x="770" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1613823069397">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="770" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1612605833675" />
+    <state x="770" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1613823069397" />
   </component>
 </project>

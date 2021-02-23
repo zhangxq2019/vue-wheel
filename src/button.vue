@@ -37,6 +37,7 @@ export default {
 }
 .g-button {
   padding: 0 1em;
+  margin-left: 1em;
   font-size: var(--font-size);
   height: var(--button-height);
   color: var(--color);
