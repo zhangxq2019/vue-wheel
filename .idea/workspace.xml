@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +51,7 @@
       <workItem from="1612601785923" duration="4624000" />
       <workItem from="1613286860968" duration="4553000" />
       <workItem from="1613629072425" duration="15822000" />
-      <workItem from="1613911115381" duration="13653000" />
+      <workItem from="1613911115381" duration="14183000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
