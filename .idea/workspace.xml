@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../exercises" />
+    <property name="last_opened_file_path" value="$USER_HOME$/demo-1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,7 +53,7 @@
       <workItem from="1612601785923" duration="4624000" />
       <workItem from="1613286860968" duration="4553000" />
       <workItem from="1613629072425" duration="15822000" />
-      <workItem from="1613911115381" duration="14183000" />
+      <workItem from="1613911115381" duration="18621000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
@@ -182,10 +184,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614065193652" />
-    <state x="981" y="185" key="FileChooserDialogImpl" timestamp="1613631178465">
+    <state x="981" y="185" key="FileChooserDialogImpl" timestamp="1614492262852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="981" y="185" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1613631178465" />
+    <state x="981" y="185" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1614492262852" />
     <state x="540" y="74" key="SettingsEditor" timestamp="1611294724753">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
