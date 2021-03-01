@@ -1,8 +1,45 @@
 # Vue-wheel - 一个简易的UI组件
-## 安装
-使用本框架前，请在css中开启border-box
-```coffeescriptliterate
-*{box-sizing: border-box;}
+## 介绍
+学习vue过程中做的一个简易的UI框架，用于练手及加深理解
+### 安装
+1. 添加CSS框架
+
+ 使用本框架前，请在css中开启border-box
+   
+  ```
+   *{box-sizing: border-box;}
+  ```
+  IE8及以上浏览器支持此样式
+  你还需要设置默认颜色等变量(后续会改为SCSS变量)
+  ```
+  html{
+        --button-height: 32px;
+        --font-size: 14px;
+        --button-bg: white;
+        --button-active-bg: #eee;
+        --border-radius: 4px;
+        --color: #999;
+        --border-color: #999;
+        --border-color-hover: #666;
+          }
+  ```
+   IE15及以上浏览器都支持
+2. 安装wheel
+```
+npm i --save zxq-wheel-test
+```
+3. 引入wheel
+```
+import {Button, ButtonGroup,Icon} from 'zxq-wheel-test'
+import 'zxq-wheel-test/dist/index.css'
+
+export default {
+  name: 'app', 
+  components: {
+      'g-button': Button,
+      'g-icon': Icon
+  }
+}
 ```
 ## 问题
 ### 遇到的第一个问题，workspace.xml文件报错

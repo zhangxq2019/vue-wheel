@@ -1,6 +1,6 @@
 {
   "name": "zxq-wheel-test",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "这是一个简易UI框架",
   "main": "dist/index.js",
   "scripts": {
@@ -37,8 +37,10 @@
     "karma-mocha": "^2.0.1",
     "karma-sinon-chai": "^2.0.2",
     "mocha": "^8.3.0",
+    "node-sass": "^5.0.0",
     "parcel-bundler": "^1.12.4",
     "sass": "^1.32.5",
+    "sass-loader": "^11.0.1",
     "sinon": "^9.2.4",
     "sinon-chai": "^3.5.0",
     "vue-template-compiler": "^2.6.12"
