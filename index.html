@@ -41,13 +41,14 @@
 <body>
 <div id="app">
     <div class="box">
-    <g-input value="hello" disabled></g-input>
-    <g-input value="world" @change="inputChange"></g-input>
-    <g-input value="world" read-only></g-input>
+<!--    <g-input value="hello" disabled></g-input>-->
+    <g-input v-model="message"></g-input>
+        <p>{{message}}</p>
+<!--    <g-input value="world" read-only></g-input>-->
     </div>
-    <div class="box">
-    <g-input value="world" error="姓名不能少于两个字" ></g-input>
-    </div>
+<!--    <div class="box">-->
+<!--    <g-input value="world" error="姓名不能少于两个字" ></g-input>-->
+<!--    </div>-->
     <div class="box">
     <g-button :loading="loading1" @click="loading1 = !loading1">
         按钮
