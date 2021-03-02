@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/content.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/footer.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/input.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/input.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/input.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <workItem from="1612601785923" duration="4624000" />
       <workItem from="1613286860968" duration="4553000" />
       <workItem from="1613629072425" duration="15822000" />
-      <workItem from="1613911115381" duration="36986000" />
+      <workItem from="1613911115381" duration="37977000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614666382502</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="让input支持w-model双向绑定">
+      <created>1614667640201</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614667640201</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,17 +216,18 @@
     <MESSAGE value="去除对iconfont的依赖" />
     <MESSAGE value="添加input vue 及其样式" />
     <MESSAGE value="添加input测试用例" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加input测试用例" />
+    <MESSAGE value="让input支持w-model双向绑定" />
+    <option name="LAST_COMMIT_MESSAGE" value="让input支持w-model双向绑定" />
   </component>
   <component name="WindowStateProjectService">
     <state x="882" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614602400171">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="882" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1614602400171" />
-    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1614666381132">
+    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1614667639145">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614666381132" />
+    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614667639145" />
     <state x="981" y="185" key="FileChooserDialogImpl" timestamp="1614492262852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -227,10 +236,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="540" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1614583511569" />
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1614666395074">
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1614667643552">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614666395074" />
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614667643552" />
     <state x="900" y="162" width="602" height="536" key="find.popup" timestamp="1614583172584">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
