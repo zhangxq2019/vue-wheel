@@ -81,3 +81,4 @@ import chai from 'chai'
 const expect = chai.expect
 //except使用构造函数来创建断言对象实例
 ```
+./node_modules/.bin/parcel index.html

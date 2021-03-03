@@ -5,12 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/content.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +64,7 @@
       <workItem from="1612601785923" duration="4624000" />
       <workItem from="1613286860968" duration="4553000" />
       <workItem from="1613629072425" duration="15822000" />
-      <workItem from="1613911115381" duration="37977000" />
+      <workItem from="1613911115381" duration="43223000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
@@ -189,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614667640201</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="常见layout content footer sider组件">
+      <created>1614670157652</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614670157652</updated>
+    </task>
+    <task id="LOCAL-00020" summary="常见layout content footer sider header组件">
+      <created>1614670273810</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614670273810</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,17 +234,19 @@
     <MESSAGE value="添加input vue 及其样式" />
     <MESSAGE value="添加input测试用例" />
     <MESSAGE value="让input支持w-model双向绑定" />
-    <option name="LAST_COMMIT_MESSAGE" value="让input支持w-model双向绑定" />
+    <MESSAGE value="常见layout content footer sider组件" />
+    <MESSAGE value="常见layout content footer sider header组件" />
+    <option name="LAST_COMMIT_MESSAGE" value="常见layout content footer sider header组件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="882" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614602400171">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="882" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1614602400171" />
-    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1614667639145">
+    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1614670272708">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614667639145" />
+    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614670272708" />
     <state x="981" y="185" key="FileChooserDialogImpl" timestamp="1614492262852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
