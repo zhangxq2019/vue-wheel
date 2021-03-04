@@ -28,7 +28,8 @@ new Vue({
         loading1: false,
         loading2: true,
         loading3: false,
-        message: '123'
+        message: '123',
+        selectedTab: '2'
     },
     methods: {
         inputChange(e){
