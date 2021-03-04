@@ -4,15 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="">
+    <list default="true" id="37933b46-332b-467c-a533-82c7ffaca86f" name="Default Changelist" comment="基本功能完成">
+      <change afterPath="$PROJECT_DIR$/src/collapse-item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/collapse.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/content.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/sider.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/demo-1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -45,6 +42,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\vue-wheel\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\vue-wheel\src" />
     </key>
@@ -64,7 +64,7 @@
       <workItem from="1612601785923" duration="4624000" />
       <workItem from="1613286860968" duration="4553000" />
       <workItem from="1613629072425" duration="15822000" />
-      <workItem from="1613911115381" duration="43223000" />
+      <workItem from="1613911115381" duration="47722000" />
     </task>
     <task id="LOCAL-00001" summary="npm install vue">
       <created>1611294068972</created>
@@ -206,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614670273810</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="基本功能完成">
+      <created>1614763881641</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614763881641</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,17 +243,18 @@
     <MESSAGE value="让input支持w-model双向绑定" />
     <MESSAGE value="常见layout content footer sider组件" />
     <MESSAGE value="常见layout content footer sider header组件" />
-    <option name="LAST_COMMIT_MESSAGE" value="常见layout content footer sider header组件" />
+    <MESSAGE value="基本功能完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本功能完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="882" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614602400171">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="882" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864@0.0.1536.864" timestamp="1614602400171" />
-    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1614670272708">
+    <state x="734" y="0" key="CommitChangelistDialog2" timestamp="1614771917660">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614670272708" />
+    <state x="734" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614771917660" />
     <state x="981" y="185" key="FileChooserDialogImpl" timestamp="1614492262852">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -255,10 +263,10 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="540" y="74" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1614583511569" />
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1614667643552">
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2" timestamp="1614771932311">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614667643552" />
+    <state x="722" y="163" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1614771932311" />
     <state x="900" y="162" width="602" height="536" key="find.popup" timestamp="1614583172584">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
