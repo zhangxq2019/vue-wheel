@@ -4,7 +4,9 @@ title: Collapse-折叠面板
 # 折叠面板
 
 ## 多项展开预览
+<ClientOnly>
 <collapse-demo></collapse-demo>
+</ClientOnly>
 
 ## 使用方法
 ```Vue

@@ -4,8 +4,9 @@ title: Button-group-按钮组
 # 按钮组
 
 ## 预览
-
+<ClientOnly>
 <button-group-demos></button-group-demos>
+</ClientOnly>
 
 ## 使用方法
 ```Vue
