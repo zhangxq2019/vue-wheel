@@ -1,2 +1,2 @@
 # wheel UI
-(https://zhangxq2019.github.io/vue-wheel/)[官网]
+!(https://zhangxq2019.github.io/vue-wheel/)[官网]
