@@ -1,15 +1,15 @@
 <template>
-<div class="footer-wrapper">
+<div class="content">
   <slot></slot>
 </div>
 </template>
 <script>
 export default {
-  name: 'GFooter'
+  name: 'Gcontent',
 }
 </script>
 <style lang="scss" scoped>
-.footer-wrapper {
-
+.content {
+  flex-grow: 1;
 }
 </style>

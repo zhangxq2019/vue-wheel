@@ -1,5 +1,5 @@
 <template>
-  <div class="layout-wrapper" :class="layoutClass">
+  <div class="layout" :class="layoutClass">
     <slot></slot>
   </div>
 </template>
@@ -23,11 +23,11 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-.layout-wrapper {
+.layout {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  //border: 1px solid;
+  border: 5px solid;
   &.hasSider {
     flex-direction: row;
   }

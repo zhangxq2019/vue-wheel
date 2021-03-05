@@ -37,53 +37,50 @@ export default {
 <style lang="scss" scoped>
 $height: 32px;
 $border-color: #999;
-$border-color-hover: #666;
-$border-radius: 4px;
-$font-size: 12px;
-$border-shadow-color: rgba(0, 0, 0, 0.5);
-$red: #F1453D;
+$box-shadow-color: #333;
+$border-color-hover: red;
 .wrapper {
-  font-size: $font-size;
+  font-size: 12px;
   display: inline-flex;
   align-items: center;
   //border: 1px solid red;
 
   > input {
-    height: $height;
+    height: 32px;
     border: 1px solid var $border-color;
-    border-radius: $border-radius;
+    border-radius: 4px;
     padding: 0 8px;
     font-size: inherit;
-    margin: 0.2em 0;
 
     &:hover {
       border-color: $border-color-hover;
     }
 
     &:focus {
-      box-shadow: inset 0 1px 3px $border-shadow-color;
+      box-shadow: inset 0 1px 3px $box-shadow-color;
       outline: none;
     }
 
     &[disabled], &[readonly] {
-      border-color: $border-color;
+      border-color: #bbb;
+      color: #bbb;
       cursor: not-allowed;
     }
 
     .icon-error {
-      fill: $red;
+      fill: red;
     }
 
   }
 
   &.error {
     > input {
-      border-color: $border-color;
+      border-color: yellow;
     }
   }
 
   .errorMessage {
-    color: $red;
+    color: red;
   }
 }
 </style>

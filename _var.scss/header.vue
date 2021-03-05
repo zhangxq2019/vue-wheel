@@ -1,15 +1,15 @@
 <template>
-<div class="footer-wrapper">
-  <slot></slot>
-</div>
+  <div class="header">
+    <slot></slot>
+  </div>
 </template>
 <script>
 export default {
-  name: 'GFooter'
+  name:'GHeader'
 }
 </script>
 <style lang="scss" scoped>
-.footer-wrapper {
+.header {
 
 }
 </style>
